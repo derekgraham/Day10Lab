@@ -1,0 +1,136 @@
+* {
+  /*border: 2px solid black;*/
+}
+body {
+  width: 900px;
+}
+header{
+  width: 900px;
+}
+
+.headblock {
+display: flex;
+justify-content: flex-end;
+}
+
+.masthead{
+  -webkit-align-self: flex-end;
+     align-self: flex-end;
+     display: flex;
+}
+.logo {
+  display: flex;
+  align-self: center;
+}
+.logogroup {
+  display: flex;
+  flex-direction: column;
+
+}
+.logotext {
+font-size: 2.2em;
+font-family: 'Yellowtail', cursive;
+}
+
+.tagline  {
+  font-size: .8em;
+  margin-top: -4px;
+  margin-left: 4px;
+}
+
+.icons {
+margin-left: auto;
+}
+p {
+  width: 900px;
+}
+
+
+.recipe {
+  width: 900px;
+  background-image: url("img/list-bg.png");
+  background-repeat: no-repeat;;
+  display: flex;
+  justify-content: space-between;
+  height: 400px;
+  padding: 30px;
+  font-size: 20px;
+}
+.column1 {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+}
+
+.column2 {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+}
+
+hr {
+  height: 5px;
+  color: red;
+}
+.hr {
+  height: 10px;
+  background: repeating-linear-gradient(
+  45deg,
+  white,
+  darkGray 1px,
+  white 2px,
+  white 4px
+);
+}
+
+button {
+  color: white;
+}
+.button {
+  background-color: black;
+  width: 150px;
+  height: 40px;
+  margin-left: auto;
+  color: white;
+  align-self: center;
+  /*padding: 0;*/
+  border: none;
+  /*background: none;*/
+}
+.foot {
+  width: 900px;
+  display: flex;
+  justify-content: flex-start;
+}
+.bottomfooter {
+  width: 900px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.bottomlogo {
+  display: flex;
+  justify-content: center;
+}
+.bottomfootertext {
+  text-align: center;
+}
+
+.bio {
+  display: flex;
+  flex-direction: row;
+}
+.biotext {
+  width:500px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.footertext {
+
+}
+.footername {
+
+}
